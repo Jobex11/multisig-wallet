@@ -1,0 +1,12 @@
+===  hardhat commands  ===
+
+1. npx hardhat clean 
+2. npx hardhat compile 
+3. npx hardhat test
+4. npx hardhat help
+5. REPORT_GAS=true npx hardhat test
+6. npx hardhat node
+7. npx hardhat ignition deploy ./ignition/modules/Lock.js
+8. npm install --save-dev @nomiclabs/hardhat-etherscan
+(install the verification contract on sepolia etherscan)
+9. npx hardhat verify --network sepolia <DEPLOYED_CONTRACT_ADDRESS> [constructor_arguments]
